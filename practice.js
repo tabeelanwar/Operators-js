@@ -27,3 +27,8 @@ var k = 2
 var j = 6
 var v = (j / k) * k - - (j - k)
 console.log(v);
+
+var e = 10
+var i = 7
+var n = (e - i) * (i - 5)
+console.log(n);
