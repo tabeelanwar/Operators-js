@@ -1,34 +1,192 @@
 // Arithmetic Operators
 
-var a = 3
-var b = 5
-var c = 2
-var x = (a + b) / c
-console.log(x);
+// var a = 3
+// var b = 5
+// var c = 2
+// var x = (a + b) / c
+// console.log(x);
 
-var f = 2
-var d = 5
-var g = 10
-var q = (g / f) - d
-console.log(q);
+// var f = 2
+// var d = 5
+// var g = 10
+// var q = (g / f) - d
+// console.log(q);
 
-var h = 4
-var u = 2
-var p = 8
-var m = (p - - h) / u
-console.log(m);
+// var h = 4
+// var u = 2
+// var p = 8
+// var m = (p - - h) / u
+// console.log(m);
 
-var l = 4
-var r = 5
-var t = (l + r) * (r - - l)
-console.log(t);
+// var l = 4
+// var r = 5
+// var t = (l + r) * (r - - l)
+// console.log(t);
 
-var k = 2
-var j = 6
-var v = (j / k) * k - - (j - k)
-console.log(v);
+// var k = 2
+// var j = 6
+// var v = (j / k) * k - - (j - k)
+// console.log(v);
 
-var e = 10
-var i = 7
-var n = (e - i) * (i - 5)
-console.log(n);
+// var e = 10
+// var i = 7
+// var n = (e - i) * (i - 5)
+// console.log(n);
+
+
+// Q1
+// const a1= 'tabeeel anwar'
+// const a2 = 23
+// console.log(typeof a1+a2);
+
+// Q2
+
+// const a1 = {
+//     name:"tabeel",
+//     section: 2,
+//     principle: false 
+// }
+// a1['age'] = '23'
+// a1['friend'] = 'qas'
+// console.log(a1);
+
+// const a2 = {
+//     gulp: "swallow (drink or food) quickly or in large mouthfuls, often audibly.",
+//     nibble: "take small bites out of.",
+//     wondering: "characterized by or expressive of a desire to know something; curious.",
+//     frightened: "deter someone or something from involvement or action by making them afraid.",
+//     eager: "strongly wanting to do or have something."
+// }
+// console.log(a2);
+
+// const hostname = {
+//     mango: "Mangos were first grown in India over 5,000 years ago.",
+//     apple: "An apple is a sweet, edible fruit that grows on apple trees. It's a common and popular fruit",
+//     strawberry: "A strawberry is a widely cultivated hybrid fruit, enjoyed for its sweet, aromatic, and juicy taste",
+//     banana: "A banana is an elongated, edible fruit"
+// }
+// alert(location.hostname);
+
+// assignment operators
+
+// Comparison Operators
+
+// ==	equal to
+// ===	equal value and equal type
+// !=	not equal
+// !==	not equal value or not equal type
+// >	greater than
+// <	less than
+// >=	greater than or equal to
+// <=	less than or equal to
+
+// let a1 = 6
+// let b1 = 6
+
+// console.log('a1 == b1 ', a1 ==b1);
+// console.log('a1 != b1', a1 !=b1);
+// console.log('a1 === b1', a1 ===b1);
+// console.log('a1 !== b1', a1 !==b1);
+// console.log('a1 < b1', a1 < b1);
+// console.log('a1 < b1 ', a1 < b1);
+
+
+// let h1 = 7
+// let t1 = 8
+// console.log(!h1<1);
+
+
+// let x = 6
+// let y = 8
+
+// console.log(x == 6 && y !== 8);
+
+// let t = 6
+// let u = 8
+
+// console.log(x == 6 || y !== 8);
+
+// let h = 6
+// let f = 8
+
+// console.log(!x < 2);
+
+
+// Conditional Statements
+
+// Use if to specify a block of code to be executed, if a specified condition is true
+// Use else to specify a block of code to be executed, if the same condition is false
+// Use else if to specify a new condition to test, if the first condition is false
+// Use switch to specify many alternative blocks of code to be executed
+
+// let x = 17;
+
+// if(x>18 || x==18){
+//     console.log('you can drive');
+// }else if(x<18){
+//     console.log('you can not drive ');   
+// }else{
+//     console.log('kch nhi hain');
+    
+// }
+
+// let h = 18;
+
+// if(h>18 || h == 18){
+//     console.log('you have access to this website');
+    
+// }else if(h<18){
+//     console.log('you cannot access to this website');
+    
+// }else{
+//     console.log('Welcome');
+    
+// }
+
+// let t = 10; 
+
+// if(t>10 || t == 10){
+//     console.log('Aha tamatar barey mazedar');
+    
+// }else if(t<10){
+//     console.log('lakri ki kathi, kathi pe ghora');
+    
+// }else{
+//     console.log('chal chaiyan chaiyan chayian');
+    
+// }
+
+
+
+// let day = 'tuesday';
+
+// switch (day) {
+//     case 'monday':
+//         console.log('today is monday');
+//         break;
+
+//         case 'tuesday':
+//         console.log('today is tuesday');
+//         break;
+
+//     default:
+//         console.log( 'kch nhi hain');       
+//         break;
+// }
+
+// let pet = 'dog'
+
+// switch (pet) {
+//     case 'dog':
+//         console.log('The dog name is Zorro');
+//         break;
+
+//             case 'cat':
+//         console.log('The cat name is Bella');
+//         break;
+
+//     default:
+//         console.log('Error');
+        
+//         break;
+// }
