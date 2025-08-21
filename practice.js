@@ -119,6 +119,7 @@
 // Use else if to specify a new condition to test, if the first condition is false
 // Use switch to specify many alternative blocks of code to be executed
 
+
 // let x = 17;
 
 // if(x>18 || x==18){
@@ -190,3 +191,74 @@
         
 //         break;
 // }
+
+// Basic Array Methods
+// Array push()
+// Array pop()
+// Array length
+// Array shift()
+// Array at()
+// Array join()
+// Array unshift()
+// Array delete()
+// Array concat()
+// Array copyWithin()
+// Array flat()
+// Array slice()
+// Array splice()
+// Array toSpliced()
+
+
+//ARRAY PUSH
+
+// let cars = ["suzuki", "toyota","buggati"]
+// let supercars = cars.push("buggati", "supra")
+// console.log(cars);
+
+//ARRAY POP
+
+// let games = ["tekken", "pubg", "criket"]
+// let outdoorgames = games.pop()
+// console.log(games.length);
+// console.log(outdoorgames);
+
+
+//ARRAY SHIFT
+
+// let games = ["tekken", "pubg", "criket"]
+// games.shift("tabeel")
+// console.log(games);
+
+//ARRAY UNSHIFT
+
+// let games = ["tekken", "pubg", "criket"]
+// games.unshift("tabeel")
+// console.log(games);
+
+//ARRAY LENGTH
+// let games = ["tekken", "pubg", "criket"]
+// games.shift("tabeel")
+// console.log(games.length);
+
+//ARRAY SPLICE 
+
+// let animals = ['dogs', 'cats', 'leapord']
+// animals.splice(2,0, 'Lion')
+// console.log(animals);
+
+
+//ARRAY SLICE
+// let animals = ['dogs', 'cats', 'leapord','lion','birds', 'snakes', 'monkey', '234']
+// let discut= animals.slice(1,6)
+// console.log(typeof'discut');
+
+//ARRAY INCLUDES
+// let animals = ['dogs', 'cats', 'leapord','lion','birds', 'snakes', 'monkey', '234']
+// let discut= animals.includes('leapord')
+// console.log(discut);
+
+
+let qasir = ('please enter the name ')
+
+console.log("the person is ",qasir);
+
