@@ -158,6 +158,21 @@
 // }
 
 
+// let x = 20
+
+// if (x==20 || x>20) {
+//     console.log('You have access to this website!');
+    
+// }
+
+// else if (x<10) {
+//     console.log("You don't have access to this website!");
+    
+// } else {
+//     console.log("Welcome!");
+    
+// }
+
 
 // let day = 'tuesday';
 
@@ -191,6 +206,26 @@
         
 //         break;
 // }
+
+// let car = 'irqeel'
+
+// switch (car) {
+//     case 'tabeel':
+//         console.log('Buggati');
+        
+//         break;
+
+//     case 'irqeel':
+//         console.log('Mazda MK4');
+        
+//         break;
+
+//     default:
+//         console.log('Error');
+        
+//         break;
+// }
+
 
 // Basic Array Methods
 // Array push()
@@ -247,10 +282,10 @@
 // console.log(animals);
 
 
-//ARRAY SLICE
+// ARRAY SLICE
 // let animals = ['dogs', 'cats', 'leapord','lion','birds', 'snakes', 'monkey', '234']
 // let discut= animals.slice(1,6)
-// console.log(typeof'discut');
+// console.log(discut);
 
 //ARRAY INCLUDES
 // let animals = ['dogs', 'cats', 'leapord','lion','birds', 'snakes', 'monkey', '234']
@@ -258,7 +293,38 @@
 // console.log(discut);
 
 
-let qasir = ('please enter the name ')
+// let tabeel = prompt('please enter your name');
+// localStorage.setItem('your name is', tabeel);
 
-console.log("the person is ",qasir);
+// let x = prompt('enter your first value');
+// let y = prompt('enter your second value');
+// if (x > y ) {
+//     console.log("x is greater than y")
+// }
+// else if (x<y) {
+//     console.log("y is greater than x")
+// }
+// else if (x == y || y == x){
+//     console.log("both values are same")
+// }
+// else {
+//     console.log("please write something!")
+// }
 
+// let x = prompt("Enter your first value");
+// let y = prompt("Enter your second value");
+// let z = prompt('Enter your third value');
+
+// if ((x>y)&&(x>z)) {
+//     console.log("X is the greater number");
+// }
+// else if ((y>x) && (y>z)) {
+//     console.log("Y is the greater number");
+// }
+// else if ((z>x) && (z>y)) {
+//     console.log("Z is the greater number");
+    
+// }
+// else if ((x==y) && (x==z)) {
+//     console.log("All values are same");
+// }
