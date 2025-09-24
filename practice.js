@@ -296,6 +296,13 @@
 // let tabeel = prompt('please enter your name');
 // localStorage.setItem('your name is', tabeel);
 
+
+
+
+
+
+// Find the greater value between two numbers
+
 // let x = prompt('enter your first value');
 // let y = prompt('enter your second value');
 // if (x > y ) {
@@ -311,6 +318,10 @@
 //     console.log("please write something!")
 // }
 
+
+
+
+// Find the greater value between three numbers
 // let x = prompt("Enter your first value");
 // let y = prompt("Enter your second value");
 // let z = prompt('Enter your third value');
@@ -328,3 +339,42 @@
 // else if ((x==y) && (x==z)) {
 //     console.log("All values are same");
 // }
+
+
+// check whether a number is negative, positive or zero
+
+// let x = prompt('Enter your value:');
+
+// if ((x>0)) {
+//     console.log("The number is positive!");
+    
+// }
+
+// else if (x<0) {
+//     console.log("The number is negative!");
+    
+// }
+// else {
+//     console.log("The number is neutral!");
+    
+// }
+
+
+
+
+
+
+// check whether a number is divisible by 5 and 11 or not
+
+let x = prompt("Enter your value!");
+
+if ((x % 5)) {
+    console.log("The number is divisible by 5!");
+}
+else if ((x % 11)) {
+    console.log("The number is divisible by 11!");
+    
+}
+else {
+    console.log("The number is not divisible by 5 and 11!");
+}
