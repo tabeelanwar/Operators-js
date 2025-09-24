@@ -418,5 +418,5 @@
 //     console.log('This is not a leap year!');
 // }
 // else {
-//     console.log('error!');
+//     console.log('error');
 // }
