@@ -412,11 +412,50 @@
 // let year = parseInt(prompt("Please enter the year!"));
 
 // if ((year % 4 ===0 && year % 100 !== 0) || (year % 400 === 0)) {
-//     console.log('This is a leap year!');
+//     console.log( year, "is a leap year");
 // }
 // else if ((year % 4 !==0 && year % 100 === 0) || (year % 400 !== 0)){
-//     console.log('This is not a leap year!');
+//     console.log(year, "is not a leap year");
 // }
 // else {
-//     console.log('error');
+//     alert('error');
 // }
+
+
+
+
+// check weather a value is alphabet or not 
+
+// let x = prompt('Enter your value');
+//  if ((x >= 'a' && x <= 'z') || (x >= 'A' && x <= 'Z')) {
+//     console.log("The value is aphabet");
+//  }
+//  else{
+//     alert('this is not a alpha')
+//  }
+
+
+
+
+
+
+
+// Check weather the value the alphabet is vowel or consonant.
+
+// let x = prompt('enter your value');
+
+// if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u' ) {
+//     console.log("The alphabets are vowels");
+    
+// }
+// else if (x >= 'a' && x <= 'z') {
+//     console.log("The alphabets are consonants");
+    
+// }
+// else {
+//     console.log('Error!');
+// }
+
+
+//input any character and check whether it is alphabet, digit or special character
+// check whether a character is uppercase or lowercase alphabet
