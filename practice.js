@@ -458,4 +458,37 @@
 
 
 //input any character and check whether it is alphabet, digit or special character
+
+// let x = prompt('Please enter your value');
+
+// if ((x>='a' && x<='z') || (x>='A' && x<='Z')) {
+//     console.log('The value is in alphabet');
+// }
+// else if ((x>='1' && x<='999999999999999999999999999999999999999999+')) {
+//     console.log('The value is in digits');
+// }
+// else if (x == '!' || x == '@' || x == '#' || x == '$' || x == '%' || x == '^' || x == '&' || x == '*' || x == '`' || x == '~' || x == '/' || x == ';' || x == ':' || x == '?' || x == '>' || x == '<') {
+//     console.log('The value is in special characters');
+    
+// }
+
+
+
+
+
 // check whether a character is uppercase or lowercase alphabet
+
+// var x = prompt('Please enter your value');
+
+// if ((x>='a' && x<='z')) {
+//     console.log('The value is lowercase alphabet');
+        
+// }
+// else if ((x>='A' && x<='Z')) {
+//     console.log('The value is uppecase alphabet');
+    
+// }
+// else {
+//     console.log('Error!');
+    
+// }
