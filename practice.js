@@ -501,10 +501,47 @@
 
 //input week number and print week day
 
-// let x = prompt('Enter your value!');
+// let weeknumber = parseInt(prompt('Enter week number between 1-7!'));
 
-// if (x) {
+// switch (weeknumber) {
+//     case 1:
+//         console.log('Monday');
+        
+//         break;
     
+//     case 2:
+//         console.log('Tuesday');
+        
+//         break;
+
+//     case 3:
+//         console.log('Wednesday');
+        
+//         break;
+
+//     case 4:
+//         console.log('Thursday');
+        
+//         break;
+
+//     case 5:
+//         console.log('Friday');
+        
+//         break;
+
+//     case 6:
+//         console.log('Saturday');
+        
+//         break;
+
+//     case 7:
+//         console.log('Sunday');
+        
+//         break;
+
+//     default:
+//         console.log('Invalid week number! Please enter between 1 and 7!');
+//         break;
 // }
 
 
@@ -515,3 +552,71 @@
 
 
 //input month number and print number of days in that month
+
+// let monthnumber = parseInt(prompt("Enter the month number between 1-12!"));
+
+// switch (monthnumber) {
+//     case 1:
+//         console.log('31 days');
+        
+//         break;
+
+//     case 2:
+//         console.log('28 days and 29 days in leap year');
+        
+//         break;
+        
+//     case 3:
+//         console.log('31 days');
+        
+//         break;
+        
+//     case 4:
+//         console.log('30 days');
+        
+//         break;
+        
+//     case 5:
+//         console.log('31 days');
+        
+//         break;
+        
+//     case 6:
+//         console.log('30 days');
+        
+//         break;
+        
+//     case 7:
+//         console.log('31 days');
+        
+//         break;
+        
+//     case 8:
+//         console.log('31 days');
+        
+//         break;
+        
+//     case 9:
+//         console.log('30 days');
+        
+//         break;
+        
+//     case 10:
+//         console.log('31 days');
+        
+//         break;
+        
+//     case 11:
+//         console.log('30 days');
+        
+//         break;
+        
+//     case 12:
+//         console.log('31 days');
+        
+//         break;
+
+
+//     default:
+//         console.log("Please enter the valid monthnumber between 1-12!");
+// }
