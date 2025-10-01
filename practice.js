@@ -467,7 +467,7 @@
 // else if ((x>='1' && x<='999999999999999999999999999999999999999999+')) {
 //     console.log('The value is in digits');
 // }
-// else if (x == '!' || x == '@' || x == '#' || x == '$' || x == '%' || x == '^' || x == '&' || x == '*' || x == '`' || x == '~' || x == '/' || x == ';' || x == ':' || x == '?' || x == '>' || x == '<') {
+// else {
 //     console.log('The value is in special characters');
     
 // }
@@ -492,3 +492,26 @@
 //     console.log('Error!');
     
 // }
+
+
+
+
+
+
+
+//input week number and print week day
+
+// let x = prompt('Enter your value!');
+
+// if (x) {
+    
+// }
+
+
+
+
+
+
+
+
+//input month number and print number of days in that month
