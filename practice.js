@@ -620,3 +620,27 @@
 //     default:
 //         console.log("Please enter the valid monthnumber between 1-12!");
 // }
+
+
+
+let monthnumber = parseInt(prompt("Please enter the month number between 1-12!"));
+
+switch (monthnumber) {
+    case 1:  case 3: case 5: case 7: case 8: case 10: case 12:
+        console.log("This month have 31 days");
+        
+        break;
+
+    case 4:  case 6: case 9: case 11: 
+        console.log("This month have 30 days");
+        
+        break;
+
+    case 2: 
+        console.log("This month has 28 days and 29 in Leap year");
+        
+        break;
+    default:
+        console.log("Invalid number... please enter the numbers between 1-12!");
+        
+}
