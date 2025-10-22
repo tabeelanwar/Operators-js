@@ -1,23 +1,3 @@
-// var x = 'tabeel' 
-// console.log (x)
-// var x = 'tabeel2'
-// console.log (x)
-// var x = 'tabeel3'
-// console.log (x) //reassure or reasign ho skta hai
-
-// let x = 'tabeel'
-// console.log (x)
-// x = 'tabeel2'
-// console.log (x)
-// x = 'tabeel3'
-// console.log (x) //redeclare nai ho skta lekin reasign multiple times ho skta hai
-
-// const x = 'tabeel'
-// console.log (x)
-// const y = 'tabeel2'
-// console.log (y)
-// const z = 'tabeel3'
-// console.log (z) //no redeclare ho skta hai na reasign ho skta hai 
 
 // var name = 'tabeel'
 // var age = 22 

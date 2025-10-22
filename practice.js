@@ -457,7 +457,7 @@
 // }
 
 
-//input any character and check whether it is alphabet, digit or special character
+// /input any character and check whether it is alphabet, digit or special character
 
 // let x = prompt('Please enter your value');
 
@@ -644,3 +644,10 @@
 //         console.log("Invalid number... please enter the numbers between 1-12!");
         
 // }
+
+
+let x = parseInt(prompt('Frist value'));
+ let y = parseInt(prompt("Second value"))
+ 
+ alert(y+x);
+
