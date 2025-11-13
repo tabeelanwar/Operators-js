@@ -646,8 +646,83 @@
 // }
 
 
-let x = parseInt(prompt('Frist value'));
- let y = parseInt(prompt("Second value"))
+// let x = parseInt(prompt('Frist value'));
+//  let y = parseInt(prompt("Second value"))
  
- alert(y+x);
+//  alert(y+x);
 
+
+
+
+
+// let x = parseInt(prompt('Enter your value'));
+
+// function calculateExpression() {
+//   let input = prompt("Enter your expression (e.g., 20+20):");
+//   let result = eval(input); // Evaluates the string expression
+//   alert("Result: "+ result);
+//   alert("Result: "-result);
+//   console.log("Result:", result);
+// }
+
+// // Call the function
+// calculateExpression();
+
+
+// for loop 
+
+// let a =1
+
+// for (let i = 0; i < 100; i++) {
+//   console.log(a + i);
+// }
+
+// let obj= [
+//   'qasir','23','programmer'
+// ]
+
+// // just used for Object
+
+// for (const key in obj) {
+//   const element = obj[key];
+//   console.log(obj);
+
+// }
+
+// // just used for Arry
+//    for (const c of obj) {
+//    console.log(c);  
+// }
+
+
+
+// let a = 0
+
+//   while (a<10) {
+//   console.log(a);
+//   a++
+// }
+
+
+
+// do/while loop
+// let a = 10
+// do {
+//     console.log(a);
+//    a++
+// } while (a<6);
+
+
+function myFunction () {
+  var Input = document.querySelector('.myInput');
+  let mInput = Input.value;
+  console.log(mInput);
+
+}
+myFunction();
+
+function clearValue () {
+  let Input = document.getElementsByClassName('myInput').value="";
+  console.log(Input);
+}
+clearValue();
